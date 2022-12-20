@@ -96,7 +96,7 @@ include 'links.php';
             <h3 style="text-align: center;">Customer Details</h3>
             <br><p>Name: <?php echo $row['Name'];?></p><hr>
             <p>Account No.: <?php echo $row['Account_No'];?></p><hr>
-            <p>Phone No.: <?php echo $row['Email'];?></p><hr>
+            <p>Email: <?php echo $row['Email'];?></p><hr>
             <p>Balance: <?php echo $row['Current_Balance'];?></p><br>
             <center><?php echo '<a href="Transfer.php?id='.$row['Sr_No'].'">'; ?><button class="btn btn-outline-info btn-lg">Transfer</button></a></center>
           </div>
